@@ -1,0 +1,25 @@
+{
+  "name": "qubikawebsite",
+  "version": "1.0.0",
+  "description": "technical test for qubika",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusnespral/QubikaWebsite.git"
+  },
+  "author": "agustin nespral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusnespral/QubikaWebsite/issues"
+  },
+  "homepage": "https://github.com/agusnespral/QubikaWebsite#readme",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
+}
