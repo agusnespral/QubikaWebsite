@@ -13,7 +13,7 @@ Qubika Technical Test - Exercise 1 - Cypress with JS
 
 2.  Clone repository. Run in your terminal:
     ```bash
-    git clone [https://github.com/agusnespral/QubikaWebsite.git](https://github.com/agusnespral/QubikaWebsite.git)
+    git clone https://github.com/agusnespral/QubikaWebsite.git
     ```
 
 3.  Navigate into the project folder:
