@@ -23,3 +23,17 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// manage cookies popup with parameters
+Cypress.Commands.add('manageCookies', (action = 'accept') => {
+    cy.get('.cky-consent-bar').should('be.visible'); 
+  
+    if (action === 'accept') {
+      cy.get('.cky-notice-btn-wrapper > .cky-btn-accept').click(); 
+    } else if (action === 'reject') {
+      cy.get('.cky-notice-btn-wrapper > .cky-btn-reject').click(); 
+    } else if (action === 'customize') {
+      cy.get('.cky-btn-customize').click(); 
+    } 
+  });
+  
