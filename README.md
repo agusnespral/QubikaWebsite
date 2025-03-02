@@ -2,7 +2,7 @@
 Qubika Technical Test - Exercise 1 - Cypress with JS  
 
 Step-by-step running instructions
-1. Open your terminal and verify node and npm installation
+1- Open your terminal and verify node and npm installation
 node -v
 npm -v
 In case they are not installed, donwdload and install Node.js from nodejs.org
@@ -32,7 +32,7 @@ Click on "Start E2E Testing in..."
 Click spec.cy.js 
 
 
-2. Solution explained
+2- Solution explained
 12 steps from the worksheet were divided in 4 test cases
 Validate website is displayed correctly - steps 2a and 2b
 Validate contact form is displayed successfully - steps 3 and 4a, 4b, 4c
@@ -44,7 +44,7 @@ Page Object Model was create with locators and methods to interact those locator
 A fixture for static data was created
 The test file (spec.cy.js) imports the Page Object Model (POM) and interacts with its locators and methods, resulting in code that is easy to read and maintain.
 
-3. Enhacements
+3- Enhacements
 Expand test coverage
 Add more locators and methods to the POM, in order to reduce time when creating the test cases
 Reduce the use of specific waits (added on the suite to fix issues with headless runs)
